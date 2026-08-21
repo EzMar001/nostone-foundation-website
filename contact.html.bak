@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- ============================================
+     No Stone Foundation - Contact
+     File: contact.html
+     Description: Contact information, emergency
+     numbers, local services, and location map.
+     ============================================ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact No Stone Foundation. Find our address, emergency numbers, and local services in Kalbaskraal.">
+    <title>Contact Us | No Stone Foundation</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ============================================
+         HEADER & NAVIGATION
+         ============================================ -->
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">No Stone Foundation</a>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programmes.html">Programmes</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================
+         MAIN CONTENT
+         ============================================ -->
+    <main>
+
+        <!-- Page Title -->
+        <section class="content-section bg-cream" aria-label="Contact introduction">
+            <div class="container">
+                <h1 class="page-title">Contact Us</h1>
+                <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem;">We'd love to hear from you. Reach out via phone, email, or visit our offices in Kalbaskraal.</p>
+            </div>
+        </section>
+
+        <!-- Contact Information & Map -->
+        <section class="content-section bg-white" aria-label="Contact details and location">
+            <div class="container">
+                <div class="contact-grid">
+
+                    <!-- Left Column: Map Placeholder -->
+                    <div>
+                        <h2 class="section-heading">Find Us</h2>
+                        <div class="map-placeholder" role="img" aria-label="Map showing No Stone Foundation location in Kalbaskraal">
+                            [Map Location]<br>
+                            Kalbaskraal<br>
+                            Western Cape, South Africa
+                        </div>
+                        <p style="margin-top: 1rem; font-size: 0.9rem; color: #6B7280;">
+                            <em>Approximately 60 kilometres northeast of Cape Town.</em>
+                        </p>
+                    </div>
+
+                    <!-- Right Column: Contact Details -->
+                    <div class="contact-info">
+                        <h2 class="section-heading">Get in Touch</h2>
+
+                        <h3>Address</h3>
+                        <p>Skool Street, Kalbaskraal<br>
+                           Western Cape<br>
+                           South Africa</p>
+
+                        <h3>Phone</h3>
+                        <p><a href="tel:+27677130698">067 713 0698</a><br>
+                           <span style="font-size: 0.9rem; color: #6B7280;">Mark — No Stone Foundation</span></p>
+
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@no-stone.org">info@no-stone.org</a></p>
+
+                        <h3>Social Media</h3>
+                        <p>
+                            <a href="#">Facebook</a> |
+                            <a href="#">Twitter</a> |
+                            <a href="#">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Numbers Section -->
+        <section class="content-section bg-cream" aria-label="Emergency numbers for Malmesbury area">
+            <div class="container">
+                <h2 class="section-heading">Emergency Numbers — Malmesbury</h2>
+                <p style="margin-bottom: 1.5rem;">Important emergency contacts for the Kalbaskraal and Malmesbury community.</p>
+
+                <div class="programme-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Fire Dept</h3>
+                            <p><a href="tel:+27224879479">022 487 9479</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Police</h3>
+                            <p><a href="tel:+27224827500">022 482 7500</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Electricity</h3>
+                            <p><a href="tel:0860037566">086 003 7566</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Municipality</h3>
+                            <p><a href="tel:+27224879400">022 487 9400</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Ambulance</h3>
+                            <p><a href="tel:+27224822505">022 482 2505</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Municipal Police</h3>
+                            <p><a href="tel:+27224879479">022 487 9479</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Social Development</h3>
+                            <p><a href="tel:+27224822934">022 482 2934</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3 style="color: #c0392b;">Elkanah Child Care</h3>
+                            <p><a href="tel:+27224864178">022 486 4178</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <p style="margin-top: 1.5rem; text-align: center;">
+                    <strong>Eskom Bot — Alfred:</strong> <a href="#" style="color: #2D5A3D; text-decoration: underline;">Click here</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Local Numbers Section -->
+        <section class="content-section bg-white" aria-label="Local business and service numbers">
+            <div class="container">
+                <h2 class="section-heading">Local Numbers — Kalbaskraal</h2>
+                <p style="margin-bottom: 1.5rem;">Handy contacts for local services and businesses in the Kalbaskraal area.</p>
+
+                <div class="programme-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>Shazah</h3>
+                            <p>Local contact</p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>Kalbaskraal Hotel</h3>
+                            <p>Donovan<br><a href="tel:+27766789129">076 678 9129</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>Country Lane Homestead</h3>
+                            <p>Diana<br><a href="tel:+27781641974">078 164 1974</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>Daily Bread</h3>
+                            <p>Jo-Anne<br><a href="tel:+27834374199">083 437 4199</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>No-Stone</h3>
+                            <p>Mark<br><a href="tel:+27677130698">067 713 0698</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>Chocolate's Angels</h3>
+                            <p>Jason<br><a href="tel:+27618708967">061 870 8967</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>Under His Wings</h3>
+                            <p>Clarissa<br><a href="tel:+27797581000">079 758 1000</a></p>
+                        </div>
+                    </div>
+                    <div class="programme-card">
+                        <div class="programme-card-content">
+                            <h3>Gas on the Go</h3>
+                            <p><a href="tel:+27691881896">069 188 1896</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>No Stone Foundation</strong></p>
+            <p>Kalbaskraal, Western Cape, South Africa</p>
+            <p>Email: <a href="mailto:info@no-stone.org">info@no-stone.org</a> | Phone: <a href="tel:+27677130698">067 713 0698</a></p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a> |
+                <a href="#" aria-label="Twitter">Twitter</a> |
+                <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">&copy; 2026 No Stone Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

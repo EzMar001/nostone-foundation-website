@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- ============================================
+     No Stone Foundation - Homepage
+     File: index.html
+     Description: Main landing page with hero banner,
+     mission introduction, and call-to-action.
+     ============================================ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive viewport settings for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="No Stone Foundation empowers underprivileged youth through education and community mentorship.">
+    <title>No Stone Foundation | Home</title>
+    <!-- Link to external stylesheet for consistent styling across all pages -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ============================================
+         HEADER & NAVIGATION
+         Persistent across all five pages.
+         Contains logo and main navigation menu.
+         ============================================ -->
+    <header class="site-header">
+        <div class="container">
+            <!-- Organisation logo linking back to homepage -->
+            <a href="index.html" class="logo">No Stone Foundation</a>
+
+            <!-- Mobile hamburger menu button (hidden on desktop) -->
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+
+            <!-- Main navigation menu -->
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programmes.html">Programmes</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================
+         MAIN CONTENT AREA
+         ============================================ -->
+    <main>
+
+        <!-- Hero Banner Section -->
+        <section class="hero-banner" aria-label="Welcome banner">
+            <div class="container">
+                <!-- Main heading using H1 for page title -->
+                <h1>No Youth Left Behind</h1>
+                <p>Providing psychosocial support and training in our most marginalized communities to nurture actively engaged citizens. </p>
+                <!-- Call-to-action button linking to volunteer page -->
+                <a href="volunteer.html" class="cta-button">Support Our Cause</a>
+            </div>
+        </section>
+
+        <!-- About Introduction Section -->
+        <section class="content-section bg-white" aria-label="About the foundation">
+            <div class="container">
+                <h2 class="section-heading">Who We Are</h2>
+                <p>No Stone Foundation is a non-profit organisation dedicated to creating opportunities for young people from disadvantaged backgrounds. We believe every child deserves access to quality education, mentorship, and safe community spaces.</p>
+                
+            </div>
+        </section>
+
+        <!-- Impact Statistics Section -->
+        <section class="content-section bg-cream" aria-label="Our impact">
+            <div class="container">
+                <h2 class="section-heading">Our Impact</h2>
+                <div class="two-column">
+                    <div>
+                        <h3 class="subsection-heading">By the Stats</h3>
+                        <ul>
+                           
+                            <li><strong>6</strong> Active programmes</li>
+                            <li><strong></strong> Dedicated volunteers</li>
+                            <li><strong></strong> Community partnerships</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="subsection-heading">What We Do</h3>
+                        <p>From academic teaching to  training in IT, our programmes are designed to meet young people where they are and help them build sustainable futures.</p>
+                        <a href="programmes.html" class="cta-button">View Our Programmes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         Repeated on every page for easy access to
+         contact information and social media links.
+         ============================================ -->
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>No Stone Foundation</strong></p>
+            <p>Skool Street, Kalbaskraal, 7300</p>
+            <p>Email: <a href="mark@no-stone.org">mark@no-stone.org</a> | Phone:  +27 67 713 0698</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a> |
+                <a href="#" aria-label="Twitter">Twitter</a> |
+                <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">&copy; 2026 No Stone Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file for interactivity -->
+    <script src="js/script.js"></script>
+</body>
+</html>
