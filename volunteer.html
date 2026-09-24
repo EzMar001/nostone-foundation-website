@@ -62,22 +62,24 @@
                      - type="email": validates email format
                      - type="tel": expects telephone format
                 -->
-                <form class="form-container" action="#" method="POST" novalidate>
+                <form id="volunteer-form" class="form-container" action="#" method="POST" novalidate></form>
 
                     <!-- Full Name Field -->
                     <div class="form-group">
                         <label for="fullName" class="required">Full Name</label>
                         <input type="text" id="fullName" name="fullName" required 
-                               placeholder="Enter your full name"
-                               aria-required="true">
-                    </div>
+                        placeholder="Enter your full name"
+                        aria-required="true">
+                 <span class="error-message" id="fullName-error"></span>
+                 </div>
 
                     <!-- Email Field -->
                     <div class="form-group">
                         <label for="email" class="required">Email Address</label>
                         <input type="email" id="email" name="email" required 
-                               placeholder="your.email@example.com"
-                               aria-required="true">
+                         placeholder="your.email@example.com"
+                         aria-required="true">
+                        <span class="error-message" id="email-error"></span>
                     </div>
 
                     <!-- Phone Field -->
@@ -101,6 +103,7 @@
                             <option value="events">Event Support</option>
                             <option value="admin">Administration</option>
                         </select>
+                        <span class="error-message" id="interest-error"></span>
                     </div>
 
                     <!-- Availability -->
@@ -113,6 +116,7 @@
                             <option value="evenings">Evenings Only</option>
                             <option value="flexible">Flexible</option>
                         </select>
+                        <span class="error-message" id="availability-error"></span>
                     </div>
 
                     <!-- Message Field -->
@@ -159,7 +163,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        
                 </section>
 
             <!-- Banking Details Section -->
@@ -220,7 +224,7 @@
         <div class="container">
             <p><strong>No Stone Foundation</strong></p>
             <p>Skool Street, Kalbaskral,7300</p>
-            <p>Email: <a href="info@no-stone.org">info@no-stone.org</a> | Phone: Phone: Phone: +27 67 713 0698</p>
+            <p>Email: <a href="mailto:info@no-stone.org">info@no-stone.org</a> | Phone: <a href="tel:+27677130698">067 713 0698</a></p>
             <div class="social-links">
                 <a href="https://www.facebook.com/100082029253474/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>  |
                 <a href="#" aria-label="Twitter">Twitter</a> |
